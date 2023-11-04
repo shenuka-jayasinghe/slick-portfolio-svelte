@@ -43,10 +43,10 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Shenuka',
+	lastName: 'Jayasinghe',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		`Meet a versatile AWS DevOps, cloud engineer and full-stack JavaScript developer skilled in Angular, Svelte, NoSQL, and PSQL databases.His background as a concert pianist and conductor fuels creative leadership, while experience in construction sharpens project management and teamwork.`,
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/' },
 		{
