@@ -27,7 +27,7 @@
 >
 	<div class="md:flex-1 gap-10px m-10">
 		<MainTitle classes="md:text-left">Hi,</MainTitle>
-		<div class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
+		<div class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-light">
 			<div> I'm Shenuka, a Junior Cloud and DevOps Engineer proficient in 
 				JavaScript full-stack, test-driven web development. Having a background in physics and 
 				engineering consultancy, consulting on projects for blue-chip companies like 

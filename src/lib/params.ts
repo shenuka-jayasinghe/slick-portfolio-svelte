@@ -81,7 +81,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: ''
+	item: 'https://drive.google.com/file/d/1USKjGK9P-plzX6tiTqFi5uiQ5FDmhiuw/view?usp=sharing'
 };
 
 export const SEARCH: SearchPageParams = {
