@@ -46,32 +46,20 @@ export const HOME: HomePageParams = {
 	name: 'Shenuka',
 	lastName: 'Jayasinghe',
 	description:
-		`Meet a versatile AWS DevOps, cloud engineer and full-stack JavaScript developer skilled in Angular, Svelte, NoSQL, and PSQL databases.His background as a concert pianist and conductor fuels creative leadership, while experience in construction sharpens project management and teamwork.`,
+		`Meet a versatile AWS cloud engineer and full-stack JavaScript developer skilled in Angular, Svelte, NoSQL, and PSQL databases.His background as a concert pianist and conductor fuels creative leadership, while experience in construction sharpens project management and teamwork.`,
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/shenuka-jayasinghe/' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://www.linkedin.com/in/shenuka-jayasinghe-553387139/'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'shenukacj@gmail.com'
 		},
 		{
 			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
+			link: 'https://www.youtube.com/@shenukamusic604'
 		}
 	]
 };

@@ -4,36 +4,39 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'cultured',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			' SQL database',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+			`A full-stack book review website using Sveltekit for the frontend, 
+			Node with express server for the API
+			and PostgreSQL for the database. Click on this card for more information.
+			`,
+		links: [{ to: 'http://35.178.7.96:3000', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/book-reviews', label: 'Github' }],
+		logo: Assets.Cultured,
+		name: 'Cultured',
 		period: {
-			from: new Date()
+			from: new Date(2023,10, 10)
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('svelte', 'node', 'aws', 'postgres','express'),
+		type: 'Full-stack book review website'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'interlingo',
 		color: '#ff3e00',
 		description:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+			'I wrote an app to help me learn Lithuanian and Polish as I could not find the right resource to learn with my style of language learning, which is with interesting stories.',
+		links: [{ to: 'http://13.41.70.59/', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/interlingo-2', label: 'Github' }],
+		logo: Assets.Interlingo,
+		name: 'Interlingo',
 		period: {
-			from: new Date()
+			from: new Date(2023,9,1),
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('angular','node', 'express'),
+		type: 'Language learning app using AI intergration',
 		screenshots: [
 			{
 				label: 'screen 1',

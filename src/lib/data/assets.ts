@@ -8,6 +8,9 @@ const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 
 const Assets = {
+	Northcoders: a('northcoders.jpg'),
+	Interlingo: a('interlingo.png'),
+	Cultured: a('cultured.svg'),
 	AWS: a('aws.svg'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
@@ -26,8 +29,9 @@ const Assets = {
 	Rust: a('rust.svg', 'rust-dark.png'),
 	Scrapy: a('scrapy.png'),
 	Selenium: a('selenium.svg'),
+	Terraform: a('terraform.svg'),
 	Docker: a('docker.svg'),
-	Kubernetes: a('kubernetes.svg'),
+	Kubernetes: a('kubernetes.png'),
 	Csharp: a('csharp.svg'),
 	Xamarin: a('xamarin.svg'),
 	TypeScript: a('ts.png'),
