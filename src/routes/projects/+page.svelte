@@ -70,6 +70,8 @@
 	});
 </script>
 
+
+
 <SearchPage {title} on:search={onSearch}>
 	<div class="projects-filters">
 		{#each filters as tech}

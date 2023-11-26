@@ -73,6 +73,26 @@ const MY_PROJECTS: Array<Project> = [
 			// 	src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			// }
 		]
+	},
+	{
+		slug: 'employee records',
+		color: '#3bcc53',
+		description:
+			`
+			I recently developed a straightforward MEAN (MongoDB, Express.js, Angular, Node.js) stack CRUD application tailored for an employee record portal. Leveraging the MEAN stack's full-stack capabilities, the application enables seamless management of employee records with Create, Read, Update, and Delete (CRUD) functionalities. The backend, powered by Node.js and Express.js, serves as the robust API layer, handling data interactions with the MongoDB database. Angular, serving as the frontend framework, provides an intuitive and responsive user interface, allowing administrators to effortlessly add, view, modify, and remove employee records. The application's modular architecture and use of the MEAN stack contribute to its scalability, making it adaptable to the evolving needs of the employee record management system. Through this MEAN stack CRUD application, I aimed to deliver a user-friendly and efficient solution for maintaining employee data within an organizational setting.`,
+		shortDescription:
+			`
+			I developed a MEAN stack CRUD app for an employee portal, combining MongoDB, Express.js, Angular, and Node.js. It offers seamless record management with a user-friendly Angular interface and efficient backend operations.
+			`,
+		links: [{ to: 'http://18.130.46.26/', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/employee-records', label: 'Github' }],
+		logo: Assets.MongoDB,
+		name: 'Employee Records',
+		period: {
+			from: new Date(2023,1, 10),
+			to: new Date(2023, 2, 10)
+		},
+		skills: getSkills('mongodb', 'express','angular','node'),
+		type: 'Full-stack employee records application'
 	}
 ];
 
