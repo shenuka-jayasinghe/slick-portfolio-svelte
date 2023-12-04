@@ -13,7 +13,7 @@ const MY_PROJECTS: Array<Project> = [
 			Node with express server for the API
 			and PostgreSQL for the database. Click on this card for more information.
 			`,
-		links: [{ to: 'http://35.178.7.96:3000', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/book-reviews', label: 'Github' }],
+		links: [{ to: 'https://cultured-front-end.onrender.com/', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/book-reviews', label: 'Github' }],
 		logo: Assets.Cultured,
 		name: 'Cultured',
 		period: {
@@ -39,7 +39,7 @@ const MY_PROJECTS: Array<Project> = [
 			This app is still in development. `,
 		shortDescription:
 			'I wrote an app to help me learn Lithuanian and Polish as I could not find the right resource to learn with my style of language learning, which is with interesting stories.',
-		links: [{ to: 'http://13.41.70.59/', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/interlingo-2', label: 'Github' }],
+		links: [{ to: 'https://interlingo.netlify.app/', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/interlingo-2', label: 'Github' }],
 		logo: Assets.Interlingo,
 		name: 'Interlingo',
 		period: {
