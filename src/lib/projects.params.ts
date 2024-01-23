@@ -14,7 +14,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.HelloKitty,
 		name: 'Project Hello Kitty',
 		period: {
-			from: new Date(2024,1, 10)
+			from: new Date(2023,12, 10)
 		},
 		skills: getSkills('aws', 'terraform','docker','kubernetes','jenkins','circle','argo'),
 		type: 'Devops'
