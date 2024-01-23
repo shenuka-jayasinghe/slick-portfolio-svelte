@@ -4,6 +4,25 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
+		slug: 'microservices',
+		color: '#3bcc53',
+		description:
+			`Infrastructure `,
+		shortDescription:
+			`A full-stack book review website using Sveltekit for the frontend, 
+			Node with express server for the API
+			and PostgreSQL for the database. Click on this card for more information.
+			`,
+		links: [{ to: 'https://cultured-front-end.onrender.com/', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/book-reviews', label: 'Github' }],
+		logo: Assets.Cultured,
+		name: 'Cultured',
+		period: {
+			from: new Date(2023,10, 10)
+		},
+		skills: getSkills('svelte', 'node', 'aws', 'postgres','express'),
+		type: 'Full-stack book review website'
+	},
+	{
 		slug: 'cultured',
 		color: '#5e95e3',
 		description:
