@@ -106,15 +106,36 @@ const MY_SKILLS = [
 		color: 'orange',
 		description: ' ',
 		logo: Assets.ExpressJs,
-		name: 'express'
+		name: 'Express'
 	}),
 	s({
 		slug: 'javascript',
 		color: 'orange',
 		description: ' ',
 		logo: Assets.JavaScript,
-		name: 'javascript'
-	})
+		name: 'Javascript'
+	}),
+	s({
+		slug: 'jenkins',
+		color: 'orange',
+		description: ' ',
+		logo: Assets.Jenkins,
+		name: 'Jenkins'
+	}),
+	s({
+		slug: 'argo',
+		color: 'orange',
+		description: ' ',
+		logo: Assets.Argo,
+		name: 'Argo'
+	}),
+	s({
+		slug: 'circle',
+		color: 'orange',
+		description: ' ',
+		logo: Assets.Circle,
+		name: 'Circle'
+	}),
 ];
 
 export default MY_SKILLS;

@@ -8,6 +8,10 @@ const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 
 const Assets = {
+	Circle: a('circle.png'),
+	Argo: a('argo.svg'),
+	Jenkins: a('jenkins.png'),
+	HelloKitty: a('hello-kitty.svg'),
 	Sandybrown: a('sandybrown.jpeg'),
 	Citywise: a('citywise.jpeg'),
 	Adamah: a('adamah.png'),

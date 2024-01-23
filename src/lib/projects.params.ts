@@ -5,18 +5,18 @@ import type { Project } from './types';
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'Devops Environments',
-		color: '#f08b48',
+		color: '#f542e9',
 		description:
-			`This article is a guide tailored for cloud engineers, addressing the critical considerations and implementation details involved in ensuring the scalability and resilience of microservices-based infrastructures. Focusing on a hypothetical smart home controller application, the I walk through key components such as VPCs, security groups, and load balancers, emphasizing the importance of distributing resources across multiple availability zones. The narrative then shifts to the significance of autoscaling in handling server traffic efficiently, particularly during unexpected traffic spikes or DDoS attacks. The example illustrates the setup of autoscaling policies based on CPU utilization metrics and concludes with a demonstration of the system's responsiveness to a simulated DDoS attack, showcasing its ability to dynamically adjust resources and optimize costs. The provided code repository serves as a valuable resource for cloud engineers seeking practical insights into building resilient and scalable infrastructures.`,
+			`This article describes our DevOps pipeline based on Gene Kim's Phoenix Project and the Unicorn project. It describes how as a team, we built infrastructure and environments using Docker, Kubernetes, Jenkins, Circle, Pulumi and AWS`,
 		shortDescription:
-			'Infrascture as Code written in Terraform for autoscaling each service independently in a micro-services architecture. The article written for this guides the engineer on how to implement micro-services, monitor the CPU usage of each server, scale up and down when necessary and how to test using a controlled DDoS attack.',
-		links: [{ to: 'https://medium.com/@shenukacj/getting-your-microservices-infrastructure-ready-for-dragons-den-aed27446e4b1', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/microservices', label: 'Github' }],
-		logo: Assets.AWS,
-		name: 'Smart Home Network',
+			'This article describes our DevOps pipeline based on Gene Kim\'s Phoenix Project and the Unicorn project. It describes how as a team, we built infrastructure and environments using Docker, Kubernetes, Jenkins, Circle, Pulumi and AWS',
+		links: [{ to: 'https://medium.com/@shenukacj/project-hello-kitty-part-1-4-086962062984', label: 'Visit Website' }, { to: 'https://github.com/shenuka-jayasinghe/ce-team-project-k8s', label: 'Github' }],
+		logo: Assets.HelloKitty,
+		name: 'Project Hello Kitty',
 		period: {
-			from: new Date(2023,10, 10)
+			from: new Date(2024,1, 10)
 		},
-		skills: getSkills('aws', 'terraform'),
+		skills: getSkills('aws', 'terraform','docker','kubernetes','jenkins','circle','argo'),
 		type: 'Infrastructure as Code'
 	},
 	{
@@ -30,7 +30,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.AWS,
 		name: 'Smart Home Network',
 		period: {
-			from: new Date(2023,10, 10)
+			from: new Date(2023,12, 10)
 		},
 		skills: getSkills('aws', 'terraform'),
 		type: 'Infrastructure as Code'
