@@ -17,7 +17,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2024,1, 10)
 		},
 		skills: getSkills('aws', 'terraform','docker','kubernetes','jenkins','circle','argo'),
-		type: 'Infrastructure as Code'
+		type: 'Devops'
 	},
 	{
 		slug: 'microservices',
@@ -33,7 +33,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2023,12, 10)
 		},
 		skills: getSkills('aws', 'terraform'),
-		type: 'Infrastructure as Code'
+		type: 'Cloud & Infrastructure as Code'
 	},
 	{
 		slug: 'cultured',
