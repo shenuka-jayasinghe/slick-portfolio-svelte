@@ -17,7 +17,7 @@ export const TITLE_SUFFIX = 'Slick template with Svelte';
 export const NavBar = {
 	home: 'Home',
 	personal: 'Projects',
-	career: 'Experiences',
+	career: 'Experience',
 	resume: 'CV',
 	skills: 'Skills'
 };
