@@ -28,16 +28,12 @@
 	<div class="md:flex-1 gap-10px m-10">
 		<MainTitle classes="md:text-left">Hi,</MainTitle>
 		<div class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-light">
-			<div> I'm Shenuka, a Junior Cloud and DevOps Engineer proficient in 
-				JavaScript full-stack, test-driven web development. Having a background in physics and 
-				engineering consultancy, consulting on projects for blue-chip companies like 
-				Goldman Sachs, Google, and Apple, and being a music teacher, concert pianist 
-				and conductor (after studying at the Royal Northern College of Music), I have also founded a tech startup.
+			<div> I'm Shenuka, a Junior Cloud and DevOps Engineer, proficient cloud architecture in AWS; Iac using terraform, containerisation using Docker and Kubernetes; and building CI/CD pipelines using Jenkins, Argo and CircleCI. I founded and closed a tech startup focused on Network Attached Storage (NAS) devices as a potential competitor to cloud storage solutions. Bringing a background in physics and engineering consultancy, I provided consulting services for blue-chip companies like Goldman Sachs, Google, and Apple. 
 			</div>
 			<br>
 			<div>Meet a developer who understands your client's business needs
 				and saves them the headache of cloud architecture and CI/CD pipelines to get their
-				products up and running.
+				products up, running with minimum constraints.
 			</div>
 			<br>
 			<div>Let's get in touch!</div>
