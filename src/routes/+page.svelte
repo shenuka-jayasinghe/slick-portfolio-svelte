@@ -28,7 +28,7 @@
 	<div class="md:flex-1 gap-10px m-10">
 		<MainTitle classes="md:text-left">Hi,</MainTitle>
 		<div class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-light">
-			<div> I'm Shenuka, a Junior Cloud and DevOps Engineer, proficient cloud architecture in AWS; Iac using terraform, containerisation using Docker and Kubernetes; and building CI/CD pipelines using Jenkins, Argo and CircleCI. I founded and closed a tech startup focused on Network Attached Storage (NAS) devices as a potential competitor to cloud storage solutions. Bringing a background in physics and engineering consultancy, I provided consulting services for blue-chip companies like Goldman Sachs, Google, and Apple. 
+			<div> I'm Shenuka, a Junior Cloud and DevOps Engineer, proficient cloud architecture in AWS; Infrastructure  as Code (Iac) using terraform, containerisation using Docker and Kubernetes; and building CI/CD pipelines using Jenkins, Argo and CircleCI. I founded and closed a tech startup focused on Network Attached Storage (NAS) devices as a potential competitor to cloud storage solutions. Bringing a background in physics and engineering consultancy, I provided consulting services for blue-chip companies like Goldman Sachs, Google, and Apple. 
 			</div>
 			<br>
 			<div>Meet a developer who understands your client's business needs
